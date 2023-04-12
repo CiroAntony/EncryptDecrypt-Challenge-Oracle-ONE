@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Alura encriptador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="main-header">
+      <p class="autor-name"><b>Ciro Antony</b></p>
+      <div class="social-container">
+        <a href="https://github.com/CiroAntony"><img src="assets/github.png" alt="" class="social"></a>
+        <a href="https://www.linkedin.com/in/antonyv19/"><img src="assets/linkedin.png" alt="" class="social"></a>
+      </div>
+    </div>
+  </header>
+  <div class="main-container">
+    <div class="container">
+      <img src="assets/logo.png" alt="logo alura" class="logo">
+      <div class="form-container">
+        <div class="part1">
+          <textarea placeholder="Ingrese el texto aqui" id="input-text"></textarea>
+          <p><img src="assets/adevertencia.png" alt="" class="advertencia">Solo letras minusculas y sin acentos</p>
+          <div class="btn-container">
+            <button id="btnEncrypt">Encriptar</button>
+            <button id="btnDecrypt">Desencriptar</button>
+          </div>
+        </div>
+        <div class="part2">
+          <div class="image-container">
+            <img src="assets/Muñeco.png" alt="muñeco" id="image" />
+            <img src="assets/Frame5.png" alt="">
+          </div>
+          <textarea name="Resultado" id="show-text" cols="30" rows="10" readonly></textarea>
+          <button id="btnCopy">Copiar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
